@@ -1,7 +1,7 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from "./node_modules/react";
+import PropTypes from "./node_modules/prop-types";
 
-import Card from "../card";
+import Card from "../Card";
 
 import "./styles.css";
 

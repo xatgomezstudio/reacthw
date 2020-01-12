@@ -2,7 +2,7 @@
 function shuffle(array) {
   const _array = array.slice(0);
   for (let i = 0; i < array.length - 1; i++) {
-    let randomIndex = Math.random(Math.Random() * (i + 1));
+    let randomIndex = Math.random; //(Math.Random() * (i + 1));
     let temp = array[i];
     _array[i] = array[randomIndex];
     _array[randomIndex] = temp;

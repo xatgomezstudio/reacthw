@@ -6,6 +6,7 @@ import React, { useState, useEffect } from "react";
 
 import initializeDeck from "./deck";
 import { isArgumentPlaceholder } from "@babel/types";
+import Board from "../Board";
 
 export default function App() {
   const [cards, setCards] = useState([]);
@@ -22,10 +23,10 @@ export default function App() {
   }, []);
 
   //storing the value of preloaded images
-useEffect(() => {
-  preLoadImages()
-  //looking at the cards variable 
-}, cards)
+  useEffect(() => {
+    preLoadImages();
+    //looking at the cards variable
+  }, cards);
 
   // basically a media query
   useEffect(() => {
@@ -97,7 +98,7 @@ useEffect(() => {
     <div>
       <h1>WWIII Memory</h1>
       <h2>Can you remember who the US deals arms to?</h2>
-      <board
+      <Board
         dimension={dimension}
         cards={cards}
         flipped={flipped}
