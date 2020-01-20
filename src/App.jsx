@@ -6,7 +6,6 @@ import React, { useState, useEffect } from "react";
 
 import initializeDeck from "./deck";
 import { isArgumentPlaceholder } from "@babel/types";
-import Board from "../Board";
 
 export default function App() {
   const [cards, setCards] = useState([]);
@@ -94,18 +93,22 @@ export default function App() {
   };
 
   //header and board displayed
-  return (
-    <div>
-      <h1>WWIII Memory</h1>
-      <h2>Can you remember who the US deals arms to?</h2>
-      <Board
-        dimension={dimension}
-        cards={cards}
-        flipped={flipped}
-        handleClick={handleClick}
-        disabled={disabled}
-        solved={solved}
-      />
-    </div>
-  );
+  class Board extends React.Component {
+
+
+    return (
+      <div>
+        <h1>WWIII Memory</h1>
+        <h2>Can you remember who the US deals arms to?</h2>
+        <Board
+          dimension={dimension}
+          cards={cards}
+          flipped={flipped}
+          handleClick={handleClick}
+          disabled={disabled}
+          solved={solved}
+        />
+      </div>
+    );
+  }
 }
