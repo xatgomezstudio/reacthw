@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.js": "/xatgomezstudio/reacthw/static/js/main.15a91429.chunk.js",
+    "main.js.map": "/xatgomezstudio/reacthw/static/js/main.15a91429.chunk.js.map",
+    "runtime-main.js": "/xatgomezstudio/reacthw/static/js/runtime-main.d7711c86.js",
+    "runtime-main.js.map": "/xatgomezstudio/reacthw/static/js/runtime-main.d7711c86.js.map",
+    "index.html": "/xatgomezstudio/reacthw/index.html",
+    "precache-manifest.d1e5831b090f7add4e1b4aa3fe38b428.js": "/xatgomezstudio/reacthw/precache-manifest.d1e5831b090f7add4e1b4aa3fe38b428.js",
+    "service-worker.js": "/xatgomezstudio/reacthw/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d7711c86.js",
+    "static/js/main.15a91429.chunk.js"
+  ]
+}
