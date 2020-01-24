@@ -13,6 +13,7 @@ export default function Board({
   solved,
   handleClick
 }) {
+  
   return (
     <div className='board'>
       {cards.map(card => (

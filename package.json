@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "create-react-app": "^3.3.0",
+    "gh-pages": "^2.2.0",
     "nodemon": "^2.0.2",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",

@@ -107,8 +107,7 @@ export default function App() {
           handleClick={handleClick}
           disabled={disabled}
           solved={solved}
-        />
       </div>
     );
-  }
-}
+  };
+};
